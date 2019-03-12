@@ -1,0 +1,35 @@
+Este cald afara?
+1)Da
+2)Nu
+3)Poate
+2
+Vreme
+##
+Cat costa un logan?
+1)Mult
+2)Putin
+3)Asa si asa
+1
+Masini
+##
+Cat costa un logan?
+1)Mult
+2)Putin
+3)Asa si asa
+1
+Animale
+##
+Cat costa un logan?
+1)Mult
+2)Putin
+3)Asa si asa
+1
+Calculatoare
+##
+Cat costa un logan?
+1)Mult
+2)Putin
+3)Asa si asa
+1
+It
+##
