@@ -147,8 +147,7 @@ public class AppControllerTest {
         intrebare.setVarianta3("3)Poate");
         intrebare.setVariantaCorecta("2");
         try {
-            controller.addNewIntrebare(intrebare);
-            assertTrue(false);
+            assertFalse(controller.addNewIntrebare(intrebare));
         } catch (DuplicateIntrebareException e) {
             assertTrue(true);
         } catch (InputValidationFailedException e) {

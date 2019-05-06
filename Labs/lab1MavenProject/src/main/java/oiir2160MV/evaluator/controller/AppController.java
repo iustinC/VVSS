@@ -10,7 +10,6 @@ import oiir2160MV.evaluator.model.Test;
 import oiir2160MV.evaluator.repository.IntrebariRepository;
 import oiir2160MV.evaluator.util.InputValidation;
 
-import java.util.LinkedList;
 import java.util.List;
 
 public class AppController {
@@ -21,7 +20,7 @@ public class AppController {
 		intrebariRepository = new IntrebariRepository();
 	}
 	
-	public Intrebare addNewIntrebare(Intrebare intrebare) throws DuplicateIntrebareException, InputValidationFailedException {
+	public boolean addNewIntrebare(Intrebare intrebare) throws DuplicateIntrebareException, InputValidationFailedException {
 
 		InputValidation.validateDomeniu(intrebare.getDomeniu());
 		InputValidation.validateEnunt(intrebare.getEnunt());
@@ -30,9 +29,9 @@ public class AppController {
 		InputValidation.validateVarianta3(intrebare.getVarianta3());
 		InputValidation.validateVariantaCorecta(intrebare.getVariantaCorecta());
 
-		intrebariRepository.addIntrebare(intrebare);
-		
-		return intrebare;
+		boolean added = intrebariRepository.addIntrebare(intrebare);
+
+		return added;
 	}
 	
 	public boolean exists(Intrebare intrebare){
@@ -51,4 +50,8 @@ public class AppController {
 		return  intrebariRepository.getStatistica();
 	}
 
+
+	public List<Test> getAllTests() {
+		return intrebariRepository.getAllTests();
+	}
 }

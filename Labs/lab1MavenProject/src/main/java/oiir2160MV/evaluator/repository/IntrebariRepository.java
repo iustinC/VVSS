@@ -25,14 +25,17 @@ public class IntrebariRepository {
 
     private List<Intrebare> intrebari;
 
+    private TestRepository testsRepository;
+
     public IntrebariRepository() {
         setIntrebari(new LinkedList<Intrebare>());
+        testsRepository = new TestRepository();
     }
 
-    public void addIntrebare(Intrebare i) throws DuplicateIntrebareException {
+    public boolean addIntrebare(Intrebare i) throws DuplicateIntrebareException {
         if (exists(i))
             throw new DuplicateIntrebareException("Intrebarea deja exista!");
-        intrebari.add(i);
+         return intrebari.add(i);
     }
 
     public boolean exists(Intrebare i) {
@@ -151,6 +154,11 @@ public class IntrebariRepository {
         }
 
         test.setIntrebari(testIntrebari);
+        testsRepository.addTest(test);
         return test;
+    }
+
+    public List<Test> getAllTests() {
+        return testsRepository.getTests();
     }
 }
