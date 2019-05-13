@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="750cd297-ee45-48de-81dc-59772707d302" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/oiir2160MV/evaluator/repository/TestRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/oiir2160MV/evaluator/repository/CreateNewTestTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Docs/lab2/.~lock.Lab02_BBT_TCs_Form.xls#" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/oiir2160MV/evaluator/main/BigBang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/oiir2160MV/evaluator/main/TopDown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/oiir2160MV/evaluator/repository/F03Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oiir2160MV/evaluator/controller/AppController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oiir2160MV/evaluator/controller/AppController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oiir2160MV/evaluator/repository/IntrebariRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oiir2160MV/evaluator/repository/IntrebariRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/oiir2160MV/evaluator/controller/AppControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/oiir2160MV/evaluator/controller/AppControllerTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,35 +14,59 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/oiir2160$oiir2160MV_evaluator_in_oiir2160.ic" NAME="oiir2160MV.evaluator in oiir2160 Coverage Results" MODIFIED="1557016943395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>oiir2160MV.evaluator.controller.*</FILTER>
       <FILTER>oiir2160MV.evaluator.repository.IntrebariRepository</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/oiir2160$CreateNewTestTest_tc2.ic" NAME="CreateNewTestTest.tc2 Coverage Results" MODIFIED="1557235629366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>oiir2160MV.evaluator.repository.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/oiir2160$CreateNewTestTest_tc1.ic" NAME="CreateNewTestTest.tc1 Coverage Results" MODIFIED="1557181228510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>oiir2160MV.evaluator.repository.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/oiir2160$CreateNewTestTest.ic" NAME="CreateNewTestTest Coverage Results" MODIFIED="1557181593084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/oiir2160$CreateNewTestTest.ic" NAME="CreateNewTestTest Coverage Results" MODIFIED="1557235645023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>oiir2160MV.evaluator.repository.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/oiir2160$CreateNewTestTest_tc3.ic" NAME="CreateNewTestTest.tc3 Coverage Results" MODIFIED="1557181286179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>oiir2160MV.evaluator.repository.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/oiir2160$F03Test.ic" NAME="F03Test Coverage Results" MODIFIED="1557781325447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>oiir2160MV.evaluator.repository.*</FILTER>
+    </SUITE>
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="184" />
+    <option name="myElementSize" value="177" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/oiir2160MV/evaluator/controller/AppController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="54" selection-start-line="54" selection-end-line="54" />
+            <state relative-caret-position="353">
+              <caret line="41" selection-start-line="41" selection-end-line="41" />
               <folding>
-                <element signature="e#670#671#0" expanded="true" />
-                <element signature="e#724#725#0" expanded="true" />
-                <element signature="e#1888#1889#0" expanded="true" />
+                <element signature="e#1382#1383#0" expanded="true" />
+                <element signature="e#1433#1434#0" expanded="true" />
+                <element signature="e#1850#1851#0" expanded="true" />
+                <element signature="e#1897#1898#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -54,16 +75,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/oiir2160MV/evaluator/repository/TestRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+            <state relative-caret-position="210">
+              <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#251#252#0" expanded="true" />
-                <element signature="e#271#272#0" expanded="true" />
-                <element signature="e#199#200#0" expanded="true" />
-                <element signature="e#227#228#0" expanded="true" />
-                <element signature="e#273#274#0" expanded="true" />
-                <element signature="e#307#308#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -72,78 +87,72 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/oiir2160MV/evaluator/repository/IntrebariRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="518">
-              <caret line="161" selection-start-line="161" selection-end-line="161" />
+            <state relative-caret-position="234">
+              <caret line="138" selection-start-line="138" selection-end-line="138" />
               <folding>
-                <element signature="e#5213#5214#0" expanded="true" />
+                <element signature="e#5250#5251#0" expanded="true" />
+                <element signature="e#5299#5300#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/oiir2160MV/evaluator/main/StartApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="78" column="61" lean-forward="true" selection-start-line="78" selection-start-column="61" selection-end-line="78" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/oiir2160MV/evaluator/main/TopDown.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1230">
+              <caret line="85" column="24" lean-forward="true" selection-start-line="85" selection-start-column="16" selection-end-line="85" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/oiir2160MV/evaluator/repository/CreateNewTestTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/oiir2160MV/evaluator/main/BigBang.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="815">
-              <caret line="108" column="1" lean-forward="true" selection-start-line="108" selection-start-column="1" selection-end-line="108" selection-end-column="1" />
+            <state relative-caret-position="217">
+              <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
               <folding>
-                <element signature="e#449#450#0" expanded="true" />
-                <element signature="e#500#501#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
+        <entry file="file://$PROJECT_DIR$/src/test/java/oiir2160MV/evaluator/repository/CreateNewTestTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="49" selection-start-line="49" selection-end-line="49" />
+            <state relative-caret-position="285">
+              <caret line="48" column="36" lean-forward="true" selection-start-line="47" selection-start-column="47" selection-end-line="48" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+        <entry file="file://$PROJECT_DIR$/src/test/java/oiir2160MV/evaluator/repository/F03Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="9" column="62" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="62" />
+            <state relative-caret-position="150">
+              <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/oiir2160MV/evaluator/util/InputValidation.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/oiir2160MV/evaluator/exception/NotAbleToCreateStatisticsException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="19" selection-start-line="5" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/intrebari.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/oiir2160MV/evaluator/controller/AppControllerTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2115">
-              <caret line="149" column="61" selection-start-line="149" selection-start-column="61" selection-end-line="149" selection-end-column="61" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/oiir2160MV/AppTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="135">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -155,14 +164,15 @@
       <list>
         <option value="JUnit5 Test Class" />
         <option value="Arquillian JUnit Test Class" />
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>length</find>
+      <find>bydomain</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -178,6 +188,9 @@
         <option value="$PROJECT_DIR$/src/main/java/oiir2160MV/evaluator/repository/TestRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/oiir2160MV/evaluator/controller/AppController.java" />
         <option value="$PROJECT_DIR$/src/main/java/oiir2160MV/evaluator/repository/IntrebariRepository.java" />
+        <option value="$PROJECT_DIR$/src/test/java/oiir2160MV/evaluator/repository/F03Test.java" />
+        <option value="$PROJECT_DIR$/src/test/java/oiir2160MV/evaluator/main/BigBang.java" />
+        <option value="$PROJECT_DIR$/src/test/java/oiir2160MV/evaluator/main/TopDown.java" />
       </list>
     </option>
   </component>
@@ -187,6 +200,17 @@
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="oiir2160" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="172" />
@@ -200,6 +224,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -325,28 +350,49 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="oiir2160MV" type="462c0819:PsiDirectoryNode" />
               <item name="evaluator" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oiir2160" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab1MavenProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="oiir2160MV" type="462c0819:PsiDirectoryNode" />
+              <item name="evaluator" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oiir2160" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab1MavenProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="oiir2160MV" type="462c0819:PsiDirectoryNode" />
+              <item name="evaluator" type="462c0819:PsiDirectoryNode" />
               <item name="repository" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557181614390" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557787372397" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="oiir2160MV.evaluator.main" />
       <recent name="oiir2160MV.evaluator.repository" />
       <recent name="oiir2160MV.evaluator.controller" />
       <recent name="oiir2160MV.evaluator.model" />
@@ -367,39 +413,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CreateNewTestTest">
-    <configuration name="AppControllerTest.BVA_invalid1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TopDown">
+    <configuration name="BigBang" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="oiir2160" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oiir2160MV.evaluator.controller.*" />
+          <option name="PATTERN" value="oiir2160MV.evaluator.main.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="oiir2160MV.evaluator.controller" />
-      <option name="MAIN_CLASS_NAME" value="oiir2160MV.evaluator.controller.AppControllerTest" />
-      <option name="METHOD_NAME" value="BVA_invalid1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CreateNewTestTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="oiir2160" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="oiir2160MV.evaluator.repository.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="oiir2160MV.evaluator.repository" />
-      <option name="MAIN_CLASS_NAME" value="oiir2160MV.evaluator.repository.CreateNewTestTest" />
+      <option name="PACKAGE_NAME" value="oiir2160MV.evaluator.main" />
+      <option name="MAIN_CLASS_NAME" value="oiir2160MV.evaluator.main.BigBang" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreateNewTestTest.tc1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="F03Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="oiir2160" />
       <extension name="coverage">
         <pattern>
@@ -408,14 +438,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="oiir2160MV.evaluator.repository" />
-      <option name="MAIN_CLASS_NAME" value="oiir2160MV.evaluator.repository.CreateNewTestTest" />
-      <option name="METHOD_NAME" value="tc1" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="oiir2160MV.evaluator.repository.F03Test" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreateNewTestTest.tc3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="F03Test.F03ValidTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="oiir2160" />
       <extension name="coverage">
         <pattern>
@@ -424,48 +453,58 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="oiir2160MV.evaluator.repository" />
-      <option name="MAIN_CLASS_NAME" value="oiir2160MV.evaluator.repository.CreateNewTestTest" />
-      <option name="METHOD_NAME" value="tc3" />
+      <option name="MAIN_CLASS_NAME" value="oiir2160MV.evaluator.repository.F03Test" />
+      <option name="METHOD_NAME" value="F03ValidTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="oiir2160MV.evaluator in oiir2160" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TopDown" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="oiir2160" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oiir2160MV.evaluator.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-        <pattern>
-          <option name="PATTERN" value="oiir2160MV.evaluator.repository.IntrebariRepository" />
+          <option name="PATTERN" value="oiir2160MV.evaluator.main.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="oiir2160MV.evaluator" />
-      <option name="MAIN_CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <option name="PARAMETERS" value="" />
+      <option name="PACKAGE_NAME" value="oiir2160MV.evaluator.main" />
+      <option name="MAIN_CLASS_NAME" value="oiir2160MV.evaluator.main.TopDown" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TopDown.integrareB" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="oiir2160" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oiir2160MV.evaluator.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="oiir2160MV.evaluator.main" />
+      <option name="MAIN_CLASS_NAME" value="oiir2160MV.evaluator.main.TopDown" />
+      <option name="METHOD_NAME" value="integrareB" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.oiir2160MV.evaluator in oiir2160" />
-      <item itemvalue="JUnit.AppControllerTest.BVA_invalid1" />
-      <item itemvalue="JUnit.CreateNewTestTest.tc1" />
-      <item itemvalue="JUnit.CreateNewTestTest" />
-      <item itemvalue="JUnit.CreateNewTestTest.tc3" />
+      <item itemvalue="JUnit.F03Test" />
+      <item itemvalue="JUnit.F03Test.F03ValidTest" />
+      <item itemvalue="JUnit.BigBang" />
+      <item itemvalue="JUnit.TopDown.integrareB" />
+      <item itemvalue="JUnit.TopDown" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CreateNewTestTest" />
-        <item itemvalue="JUnit.CreateNewTestTest.tc3" />
-        <item itemvalue="JUnit.CreateNewTestTest.tc1" />
-        <item itemvalue="JUnit.oiir2160MV.evaluator in oiir2160" />
-        <item itemvalue="JUnit.AppControllerTest.BVA_invalid1" />
+        <item itemvalue="JUnit.TopDown" />
+        <item itemvalue="JUnit.TopDown.integrareB" />
+        <item itemvalue="JUnit.BigBang" />
+        <item itemvalue="JUnit.F03Test.F03ValidTest" />
+        <item itemvalue="JUnit.F03Test" />
       </list>
     </recent_temporary>
   </component>
@@ -487,48 +526,61 @@
       <workItem from="1555359607752" duration="490000" />
       <workItem from="1557014439328" duration="1592000" />
       <workItem from="1557174495548" duration="4442000" />
+      <workItem from="1557183052750" duration="184000" />
+      <workItem from="1557235396177" duration="610000" />
+      <workItem from="1557407189655" duration="19000" />
+      <workItem from="1557776477360" duration="5088000" />
     </task>
+    <task id="LOCAL-00001" summary="lab3">
+      <created>1557183077106</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1557183077108</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AppControllerTest - 2019.04.02 at 16h 37m 22s.xml">
-      <configuration name="AppControllerTest" configurationId="JUnit" />
+    <history-entry file="TopDown_integrareB - 2019.05.14 at 00h 24m 39s.xml">
+      <configuration name="TopDown.integrareB" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppControllerTest - 2019.04.02 at 16h 39m 45s.xml">
-      <configuration name="AppControllerTest" configurationId="JUnit" />
+    <history-entry file="TopDown_integrareB - 2019.05.14 at 00h 25m 08s.xml">
+      <configuration name="TopDown.integrareB" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CreateNewTestTest_tc1 - 2019.05.07 at 01h 20m 29s.xml">
-      <configuration name="CreateNewTestTest.tc1" configurationId="JUnit" />
+    <history-entry file="TopDown_integrareB - 2019.05.14 at 00h 25m 17s.xml">
+      <configuration name="TopDown.integrareB" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CreateNewTestTest - 2019.05.07 at 01h 20m 44s.xml">
-      <configuration name="CreateNewTestTest" configurationId="JUnit" />
+    <history-entry file="TopDown_integrareB - 2019.05.14 at 00h 25m 51s.xml">
+      <configuration name="TopDown.integrareB" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CreateNewTestTest_tc3 - 2019.05.07 at 01h 21m 26s.xml">
-      <configuration name="CreateNewTestTest.tc3" configurationId="JUnit" />
+    <history-entry file="TopDown_integrareB - 2019.05.14 at 00h 27m 53s.xml">
+      <configuration name="TopDown.integrareB" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CreateNewTestTest_tc3 - 2019.05.07 at 01h 21m 46s.xml">
-      <configuration name="CreateNewTestTest.tc3" configurationId="JUnit" />
+    <history-entry file="TopDown_integrareB - 2019.05.14 at 00h 28m 02s.xml">
+      <configuration name="TopDown.integrareB" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CreateNewTestTest - 2019.05.07 at 01h 22m 26s.xml">
-      <configuration name="CreateNewTestTest" configurationId="JUnit" />
+    <history-entry file="TopDown_integrareB - 2019.05.14 at 00h 28m 07s.xml">
+      <configuration name="TopDown.integrareB" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CreateNewTestTest - 2019.05.07 at 01h 26m 04s.xml">
-      <configuration name="CreateNewTestTest" configurationId="JUnit" />
+    <history-entry file="TopDown - 2019.05.14 at 00h 28m 11s.xml">
+      <configuration name="TopDown" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CreateNewTestTest - 2019.05.07 at 01h 26m 15s.xml">
-      <configuration name="CreateNewTestTest" configurationId="JUnit" />
+    <history-entry file="TopDown - 2019.05.14 at 00h 28m 29s.xml">
+      <configuration name="TopDown" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CreateNewTestTest - 2019.05.07 at 01h 26m 33s.xml">
-      <configuration name="CreateNewTestTest" configurationId="JUnit" />
+    <history-entry file="TopDown - 2019.05.14 at 00h 28m 52s.xml">
+      <configuration name="TopDown" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13325000" />
+    <option name="totallyTimeSpent" value="19226000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
+    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17302378" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16915423" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -537,7 +589,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3291536" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2633229" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2633229" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39916405" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -548,20 +600,24 @@
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3291536" />
-      <window_info active="true" anchor="right" id="Coverage" side_tool="true" visible="true" weight="0.23493643" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="2" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.2498618" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32946378" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.32946378" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.23493643" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="lab3" />
+    <option name="LAST_COMMIT_MESSAGE" value="lab3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -602,8 +658,33 @@
           <properties />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/oiir2160MV/evaluator/main/TopDown.java</url>
+          <line>67</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/oiir2160MV/evaluator/main/TopDown.java</url>
+          <line>63</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>this.appController.exists(intrebareTest)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/oiir2160MV/evaluator/model/IntrebareTest.java" />
@@ -614,20 +695,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
           <caret line="237" column="12" selection-start-line="237" selection-start-column="12" selection-end-line="237" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/oiir2160MV/evaluator/main/StartApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1050">
-          <caret line="85" column="62" selection-start-line="85" selection-start-column="62" selection-end-line="85" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/oiir2160MV/evaluator/model/Intrebare.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -652,13 +719,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/oiir2160MV/AppTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/oiir2160MV/evaluator/controller/AppControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2115">
@@ -666,65 +726,112 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/oiir2160MV/evaluator/repository/TestRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/oiir2160MV/AppTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#251#252#0" expanded="true" />
-            <element signature="e#271#272#0" expanded="true" />
-            <element signature="e#199#200#0" expanded="true" />
-            <element signature="e#227#228#0" expanded="true" />
-            <element signature="e#273#274#0" expanded="true" />
-            <element signature="e#307#308#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="105">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/oiir2160MV/evaluator/repository/TestRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" column="62" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="62" />
+        <state relative-caret-position="210">
+          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
+        <state relative-caret-position="540">
           <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/oiir2160MV/evaluator/exception/NotAbleToCreateStatisticsException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/oiir2160MV/evaluator/repository/CreateNewTestTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="48" column="36" lean-forward="true" selection-start-line="47" selection-start-column="47" selection-end-line="48" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/oiir2160MV/evaluator/repository/F03Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/oiir2160MV/evaluator/model/Intrebare.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-197">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/oiir2160MV/evaluator/main/StartApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="78" column="61" lean-forward="true" selection-start-line="78" selection-start-column="61" selection-end-line="78" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/oiir2160MV/evaluator/controller/AppController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        <state relative-caret-position="353">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
           <folding>
-            <element signature="e#670#671#0" expanded="true" />
-            <element signature="e#724#725#0" expanded="true" />
-            <element signature="e#1888#1889#0" expanded="true" />
+            <element signature="e#1382#1383#0" expanded="true" />
+            <element signature="e#1433#1434#0" expanded="true" />
+            <element signature="e#1850#1851#0" expanded="true" />
+            <element signature="e#1897#1898#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/oiir2160MV/evaluator/repository/IntrebariRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="161" selection-start-line="161" selection-end-line="161" />
+        <state relative-caret-position="234">
+          <caret line="138" selection-start-line="138" selection-end-line="138" />
           <folding>
-            <element signature="e#5213#5214#0" expanded="true" />
+            <element signature="e#5250#5251#0" expanded="true" />
+            <element signature="e#5299#5300#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/oiir2160MV/evaluator/repository/CreateNewTestTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/oiir2160MV/evaluator/main/TopDown.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="815">
-          <caret line="108" column="1" lean-forward="true" selection-start-line="108" selection-start-column="1" selection-end-line="108" selection-end-column="1" />
+        <state relative-caret-position="1230">
+          <caret line="85" column="24" lean-forward="true" selection-start-line="85" selection-start-column="16" selection-end-line="85" selection-end-column="26" />
           <folding>
-            <element signature="e#449#450#0" expanded="true" />
-            <element signature="e#500#501#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/oiir2160MV/evaluator/main/BigBang.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
