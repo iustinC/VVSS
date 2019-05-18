@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="750cd297-ee45-48de-81dc-59772707d302" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/oiir2160MV/evaluator/main/BigBang.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/oiir2160MV/evaluator/main/TopDown.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/oiir2160MV/evaluator/repository/F03Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -60,7 +57,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/oiir2160MV/evaluator/controller/AppController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
+            <state relative-caret-position="405">
               <caret line="41" selection-start-line="41" selection-end-line="41" />
               <folding>
                 <element signature="e#1382#1383#0" expanded="true" />
@@ -75,7 +72,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/oiir2160MV/evaluator/repository/TestRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
+            <state relative-caret-position="150">
               <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -87,7 +84,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/oiir2160MV/evaluator/repository/IntrebariRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
+            <state relative-caret-position="1725">
               <caret line="138" selection-start-line="138" selection-end-line="138" />
               <folding>
                 <element signature="e#5250#5251#0" expanded="true" />
@@ -100,8 +97,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/oiir2160MV/evaluator/main/StartApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="78" column="61" lean-forward="true" selection-start-line="78" selection-start-column="61" selection-end-line="78" selection-end-column="61" />
+            <state relative-caret-position="945">
+              <caret line="78" column="61" selection-start-line="78" selection-start-column="61" selection-end-line="78" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -109,8 +106,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/oiir2160MV/evaluator/main/TopDown.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1230">
-              <caret line="85" column="24" lean-forward="true" selection-start-line="85" selection-start-column="16" selection-end-line="85" selection-end-column="26" />
+            <state relative-caret-position="1155">
+              <caret line="85" column="24" selection-start-line="85" selection-start-column="16" selection-end-line="85" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -133,8 +130,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/oiir2160MV/evaluator/repository/CreateNewTestTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="48" column="36" lean-forward="true" selection-start-line="47" selection-start-column="47" selection-end-line="48" selection-end-column="36" />
+            <state relative-caret-position="555">
+              <caret line="48" column="36" selection-start-line="47" selection-start-column="47" selection-end-line="48" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -143,7 +140,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/oiir2160MV/evaluator/repository/F03Test.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+              <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -152,7 +149,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/oiir2160MV/evaluator/exception/NotAbleToCreateStatisticsException.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -223,7 +220,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -376,12 +372,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557787372397" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558191504204" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
@@ -530,6 +527,7 @@
       <workItem from="1557235396177" duration="610000" />
       <workItem from="1557407189655" duration="19000" />
       <workItem from="1557776477360" duration="5088000" />
+      <workItem from="1558190278346" duration="599000" />
     </task>
     <task id="LOCAL-00001" summary="lab3">
       <created>1557183077106</created>
@@ -574,13 +572,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19226000" />
+    <option name="totallyTimeSpent" value="19825000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
+    <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16915423" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1708126" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -733,16 +731,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/oiir2160MV/evaluator/repository/TestRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
@@ -750,38 +738,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/oiir2160MV/evaluator/exception/NotAbleToCreateStatisticsException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/oiir2160MV/evaluator/repository/CreateNewTestTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="48" column="36" lean-forward="true" selection-start-line="47" selection-start-column="47" selection-end-line="48" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/oiir2160MV/evaluator/repository/F03Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/oiir2160MV/evaluator/model/Intrebare.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-197">
           <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/oiir2160MV/evaluator/main/StartApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="78" column="61" lean-forward="true" selection-start-line="78" selection-start-column="61" selection-end-line="78" selection-end-column="61" />
         </state>
       </provider>
     </entry>
@@ -794,7 +754,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/oiir2160MV/evaluator/controller/AppController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
+        <state relative-caret-position="405">
           <caret line="41" selection-start-line="41" selection-end-line="41" />
           <folding>
             <element signature="e#1382#1383#0" expanded="true" />
@@ -805,9 +765,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/oiir2160MV/evaluator/repository/TestRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/oiir2160MV/evaluator/repository/IntrebariRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
+        <state relative-caret-position="1725">
           <caret line="138" selection-start-line="138" selection-end-line="138" />
           <folding>
             <element signature="e#5250#5251#0" expanded="true" />
@@ -816,13 +786,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/oiir2160MV/evaluator/main/StartApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="78" column="61" selection-start-line="78" selection-start-column="61" selection-end-line="78" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/oiir2160MV/evaluator/main/TopDown.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1230">
-          <caret line="85" column="24" lean-forward="true" selection-start-line="85" selection-start-column="16" selection-end-line="85" selection-end-column="26" />
+        <state relative-caret-position="1155">
+          <caret line="85" column="24" selection-start-line="85" selection-start-column="16" selection-end-line="85" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/oiir2160MV/evaluator/repository/CreateNewTestTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="48" column="36" selection-start-line="47" selection-start-column="47" selection-end-line="48" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/oiir2160MV/evaluator/repository/F03Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/oiir2160MV/evaluator/exception/NotAbleToCreateStatisticsException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
